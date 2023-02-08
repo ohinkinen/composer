@@ -1,0 +1,18 @@
+.landing_layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.large_title {
+    font-size: 5rem;
+}
+
+.landing_row_layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15vw;
+}
