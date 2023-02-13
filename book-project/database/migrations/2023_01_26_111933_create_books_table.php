@@ -19,8 +19,6 @@ return new class extends Migration
             $table->string("author");
             $table->integer("cost");
             $table->timestamps();
-
-            $table->foreing('product_id')->references('id')->on('products');
         });
     }
 
